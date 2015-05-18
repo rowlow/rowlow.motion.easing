@@ -1,0 +1,3 @@
+@function rowlow-ease($easing-function){
+	@return map-get($rowlow-easings, $easing-function);
+}
